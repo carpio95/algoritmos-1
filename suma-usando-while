@@ -1,0 +1,19 @@
+void sumaw (){
+int i=1 ,r=0, n , s=0;
+cout<<"hola";
+while(r==0){
+cout<<"Ingrese N:";cin>> n;
+if(n<0){
+r=1;
+}
+while(i<=n){
+if((i%2)!=0){
+s=s+i;
+}
+i++;
+}
+cout<<"La Suma es: "<<s<<endl;
+s=0;
+i=0;
+}
+}
