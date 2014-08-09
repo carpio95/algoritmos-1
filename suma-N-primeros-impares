@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int generar (int n){
+int i, r=-1;
+for (i=1;i<=n;i++){
+r=r+2;
+}
+return r;
+}
+int SumdNimp (int n) {
+int i, r=0, x;
+for (i=1;i<=n;i++){
+x=generar (i);
+r=r+x;
+}
+return r;
+}
+
+int main (){
+int n,r, s;
+cout<<"Ingrese el numero N:";
+cin>>n;
+r=sumaNimp (n);
+cout<<"La suma de los impares es :"<<r<<endl;
+return 0;
+}
